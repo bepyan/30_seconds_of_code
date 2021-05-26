@@ -14,4 +14,5 @@ const CheckBox = ({ title }) => {
     return $div
 }
 
-document.querySelector('#app').appendChild(CheckBox({ title: "apple" }))
+const AppleCheckBox = CheckBox({ title: "Apple" });
+document.querySelector('#app').appendChild(AppleCheckBox)
