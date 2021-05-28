@@ -1,0 +1,23 @@
+body {
+    min-height: 200vh;
+    -ms-overflow-style: none; /* IE and Edge */
+}
+body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+#scroll-progress {
+    position: fixed;
+    top: 0;
+    width: 0%;
+    height: 4px;
+    background: #7983ff;
+    z-index: 10000;
+}
+.scroll-progress {
+    position: fixed;
+    bottom: 0%;
+    height: 4px;
+    background: #ff7979;
+    z-index: 10000;
+    width: 0%;
+}
