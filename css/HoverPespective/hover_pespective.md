@@ -12,14 +12,35 @@ perspective: 원근법
     }
     ```
     
-    - hover에서 돌아올 때 에니메이션이 생기도록 해준다.
+    hover에서 돌아올 때 에니메이션이 생기도록 해준다.
     
     ```css
     .perspective-left:hover {
         transform: perspective(3000px) rotateY(5deg);
     }
     ```
-- hover될 때 `transform` 에니메이션이 되도록
+    
+    `rotate-right`로 반대 방향 회전시켜줘도 된다.
+       
+ 
+- Image Card 만들기
+
+    레이아웃 관련
+    ```css
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 1rem;
+    padding: 8px;
     ```
 
+    이미지 
+    ```css
+    width: 240px;
+    height: 320px;
+    border-radius: 1rem;
+
+    background-image: url("https://picsum.photos/id/1049/240/320");
+    background-size: cover;
+    background-position: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
     ```
