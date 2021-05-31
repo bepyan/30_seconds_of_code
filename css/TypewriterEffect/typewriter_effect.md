@@ -1,4 +1,6 @@
-# TypewriterEffect
+[home](https://github.com/bepyan/30_seconds_of_code)
+
+# Typewriter Effect
 https://www.30secondsofcode.org/css/s/typewriter-effect   
 글에게 타이핑 에니메이션을 부여한다.
 
@@ -54,3 +56,5 @@ https://www.30secondsofcode.org/css/s/typewriter-effect
     ```
     - `calc` CSS3에서 계산 처리를 위해 사용. 
     
+
+[home](https://github.com/bepyan/30_seconds_of_code)

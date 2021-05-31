@@ -1,3 +1,5 @@
+[home](https://github.com/bepyan/30_seconds_of_code)
+
 # Custom checkbox
 
 https://www.30secondsofcode.org/css/s/custom-checkbox
@@ -88,3 +90,5 @@ https://www.30secondsofcode.org/css/s/custom-checkbox
         transition: all .3s ease
     }
     ```
+
+[home](https://github.com/bepyan/30_seconds_of_code)
