@@ -1,0 +1,37 @@
+.mouse-cursor-gradient-tracking {
+    position: relative;
+    background: #7983ff;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    overflow: hidden;
+}
+
+.mouse-cursor-gradient-tracking span {
+    /* relative가 없으면 글자 위에 덮여 씌워 진다. */
+    position: relative;
+}
+
+.mouse-cursor-gradient-tracking::before {
+    --size: 0;
+    /* 빈 가상 요소 */
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    /* closest-side 가장 가까운 면에 닿을 만큼의 크기로 설정 */
+    background: radial-gradient(circle closest-side, pink, transparent);
+    /* 좌표 기준으로 도형이 중앙에 오도록 이동 */
+    transform: translate(-50%, -50%);
+    /* width 와 heigth만 에니메이션 효과 */
+    transition: width 0.2s ease, height 0.2s ease;
+}
+
+.mouse-cursor-gradient-tracking:hover::before {
+    --size: 200px;
+}
