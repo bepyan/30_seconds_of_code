@@ -11,17 +11,20 @@ Study code from https://www.30secondsofcode.org
     ```
 2. use vscode `Live Server` plugin
 
-## css
+## 🎩 css
+### 
 - [Custom Checkbox](https://github.com/bepyan/30_seconds_of_code/blob/main/css/CustomCheckbox/custom_checkbox.md)
 
-
-- [Perspective Transform On Hover](https://github.com/bepyan/30_seconds_of_code/blob/main/css/HoverPespective/hover_pespective.md)
+### hover
+- [Cursor Tracking Button](https://github.com/bepyan/30_seconds_of_code/blob/main/css/CursorTrackingButton/cursor_tracking_button.md)
 - [Rotating Card](https://github.com/bepyan/30_seconds_of_code/blob/main/css/RotatingCard/rotating_card.md)
+- [Perspective Transform On Hover](https://github.com/bepyan/30_seconds_of_code/blob/main/css/HoverPespective/hover_pespective.md)
 - [ Menu On Image Hover](https://github.com/bepyan/30_seconds_of_code/blob/main/css/MenuOnImageHover/menu_on_image_hover.md)
    
+### animation
 - [Scroll Progress Bar](https://github.com/bepyan/30_seconds_of_code/blob/main/css/ScrollProgressBar/scroll_progress_bar.md)
 - [Typewriter Effect](https://github.com/bepyan/30_seconds_of_code/blob/main/css/TypewriterEffect/typewriter_effect.md)
+- [Bouncing Loader](https://github.com/bepyan/30_seconds_of_code/blob/main/css/BouncingLoader/bouncing_loader.md)
 
-
-## JS
+## ⛑ JS
 - [enum](https://github.com/bepyan/30_seconds_of_code/blob/main/javascript/%20enum.js)
