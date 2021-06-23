@@ -1,0 +1,40 @@
+.image-mosaic {
+    display: grid;
+    /* 각 card 간격을 1rem (margin, padding과 무관) */
+    gap: 1rem;
+    /* auto-fit 남는 공간을 다 채운다 */
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    /* rows에 각 card의 형태 자동 정의 (몇 개의 card가 올지 모르기 때문!) */
+    grid-auto-rows: 240px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #353535;
+    font-size: 3rem;
+    color: #fff;
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    /* 사진이 로드되면서 에니메이션이 발생된다. */
+    transition: all 500ms;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (min-width: 600px) {
+    .card-tall {
+        grid-row: span 2 / auto;
+    }
+    .card-wide {
+        grid-column: span 2 / auto;
+    }
+}

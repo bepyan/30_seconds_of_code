@@ -26,5 +26,8 @@ Study code from https://www.30secondsofcode.org
 - [Typewriter Effect](https://github.com/bepyan/30_seconds_of_code/blob/main/css/TypewriterEffect/typewriter_effect.md)
 - [Bouncing Loader](https://github.com/bepyan/30_seconds_of_code/blob/main/css/BouncingLoader/bouncing_loader.md)
 
+### layout
+- [Responsive Image Layout](https://github.com/bepyan/30_seconds_of_code/blob/main/css/ResponsiveImageLayout/index.md)
+
 ## ⛑ JS
 - [enum](https://github.com/bepyan/30_seconds_of_code/blob/main/javascript/%20enum.js)
