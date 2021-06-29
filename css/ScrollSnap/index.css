@@ -1,0 +1,55 @@
+/* 
+    horizontal 
+*/
+.horizontal-snap {
+  margin: 0 auto;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+  /* 계산 */
+  height: calc(180px + 1rem);
+  padding: 1rem;
+  width: 200px;
+  overflow-y: auto;
+  /* 스크롤 체이닝 */
+  overscroll-behavior-x: contain;
+  /* 인덱스에 맞춰 스크롤 되게 된다. */
+  scroll-snap-type: x mandatory;
+}
+
+.horizontal-snap > a {
+  scroll-snap-align: center;
+}
+
+.horizontal-snap img {
+  width: 180px;
+  max-width: none;
+  object-fit: contain;
+  border-radius: 1rem;
+}
+
+/* 
+    vertical 
+*/
+.vertical-snap {
+  margin: 0 auto;
+  display: grid;
+  grid-auto-flow: row;
+  gap: 1rem;
+  width: calc(180px + 1rem);
+  padding: 1rem;
+  height: 480px;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  scroll-snap-type: y mandatory;
+}
+
+.vertical-snap > a {
+  scroll-snap-align: center;
+}
+
+.vertical-snap img {
+  width: 180px;
+  object-fit: contain;
+  border-radius: 1rem;
+}

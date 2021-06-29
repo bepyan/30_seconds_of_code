@@ -18,6 +18,7 @@ Study code from https://www.30secondsofcode.org
 ###
 
 - [Custom Checkbox](https://github.com/bepyan/30_seconds_of_code/blob/main/css/CustomCheckbox/custom_checkbox.md)
+- [Scroll Snap](https://github.com/bepyan/30_seconds_of_code/blob/main/css/ScrollSnap/index.md)
 
 ### hover
 
@@ -31,6 +32,7 @@ Study code from https://www.30secondsofcode.org
 - [Scroll Progress Bar](https://github.com/bepyan/30_seconds_of_code/blob/main/css/ScrollProgressBar/scroll_progress_bar.md)
 - [Typewriter Effect](https://github.com/bepyan/30_seconds_of_code/blob/main/css/TypewriterEffect/typewriter_effect.md)
 - [Bouncing Loader](https://github.com/bepyan/30_seconds_of_code/blob/main/css/BouncingLoader/bouncing_loader.md)
+- [Pulse Loader](https://github.com/bepyan/30_seconds_of_code/blob/main/css/PulseLoader/index.md)
 - [Staggered Animation](https://github.com/bepyan/30_seconds_of_code/blob/main/css/StaggeredAnimation/index.md)
 
 ### layout
